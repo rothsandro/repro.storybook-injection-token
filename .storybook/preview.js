@@ -3,6 +3,9 @@ import docJson from "../documentation.json";
 setCompodocJson(docJson);
 
 export const parameters = {
+  // It works with the legacy renderer
+  // angularLegacyRendering: true,
+
   actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
     matchers: {
